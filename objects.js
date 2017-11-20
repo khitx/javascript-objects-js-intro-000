@@ -1,5 +1,5 @@
 var playlist = {demons:'imagine dragons'}
 
-function updatePlaylist(playlist,artist,song) {
-  return object.assign(playlist,{artist:song})
+function updatePlaylist(playlist,artistName,songTitle) {
+  return object.assign(playlist,{artistName:songTitle})
 }
